@@ -1,6 +1,5 @@
 # PIXNET More Tag Updater
 Update PIXNET format more tag to WordPress style.
-
 --
 **PIXNET**: ```<!-- more -->```
 
