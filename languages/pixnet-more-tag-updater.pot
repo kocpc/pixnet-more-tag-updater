@@ -9,3 +9,9 @@ msgstr ""
 
 msgid "開始轉換"
 msgstr ""
+
+msgid "轉換成功"
+msgstr ""
+
+msgid "轉換失敗"
+msgstr ""

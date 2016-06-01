@@ -17,6 +17,17 @@ if( ! function_exists ('add_action') ) {
 ?>
 <div class="wrap">
     <h1><?php _e( '痞客邦 More 標籤轉換工具', PMTU_TEXT_DOMAIN ) ?></h1>
+    <?php // Check success message ?>
+    <?php if( isset( $_GET['success'] ) && $_GET['success'] === 'true' ): ?>
+        <div class="notice notice-success is-dismissiable">
+            <p>轉換成功！</p>
+        </div>
+    <?php elseif( isset( $_GET['success'] ) && $_GET['success'] === 'false' ): ?>
+        <div class="notice notice-error is-dismissiable">
+            <p>轉換失敗！</p>
+        </div>
+    <?php endif; ?>
+    <?php // Check success message end ?>
     <p><?php _e( '一鍵將痞客邦 More 標籤轉換為 WordPress 格式。', PMTU_TEXT_DOMAIN ) ?></p>
     <form role="form" action="options.php" method="post">
         <?php wp_nonce_field( 'PMTU_START_CONVERT' ) ?>

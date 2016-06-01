@@ -49,15 +49,6 @@ class PIXNET_MORE_TAG_UPDATER_SETTINGS {
      */
     public static function render_the_submenu_template() {
         
-        // Set flash message if success arg is not empty
-        if( isset( $_GET['success'] ) ) {
-            if( $_GET['success'] === 'true' ) {
-                $flash_message = __( '轉換成功', PMTU_TEXT_DOMAIN );
-            } else {
-                $flash_message = __( '轉換失敗', PMTU_TEXT_DOMAIN );
-            }
-        }
-        
         // Include template
         include_once( PMTU_BASE_FULL . '/settings/template-convert-tool.php' );
         
