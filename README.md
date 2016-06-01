@@ -1,17 +1,24 @@
-# PIXNET More Tag Updater
-Update PIXNET format more tag to WordPress style.
+# 痞客邦 More 標籤更新工具
 將痞客邦 More 標籤轉換成 WordPress 格式。
 
-## Introduction
-**PIXNET**: ```<!-- more -->```
+## 介紹
+**痞客邦**: ```<!-- more -->```
 
 **WordPress**: ```<!--more-->```
 
-You know what that means!
+只要點一下，這個工具就會幫您轉換痞客邦「繼續閱讀 (More)」標籤成 WordPress 格式。
 
-## Screenshot
+## 安裝
+1. [點這裡](https://github.com/kocpc/pixnet-more-tag-updater/releases)下載這個外掛。
+2. 上傳到 WordPress 後台並安裝。
+3. 備份您的資料庫。
+3. 進入 工具 > 痞客邦 More 轉換 頁面。
+4. 點擊「開始轉換」。
+5. 完成！
+
+## 螢幕截圖
 ![Screenshot](/assets/screenshot-1.png)
 
-## Thanks
+## 致謝
 * [電腦王阿達的 3C 胡言亂語](https://www.kocpc.com.tw) : Production environment test.
 * [WordPress](https://wordpress.com) : Awesome platform for blogging.
