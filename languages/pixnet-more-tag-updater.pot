@@ -1,0 +1,11 @@
+msgid "痞客邦 More 標籤轉換工具"
+msgstr ""
+
+msgid "痞客邦 More 轉換"
+msgstr ""
+
+msgid "一鍵將痞客邦 More 標籤轉換為 WordPress 格式。"
+msgstr ""
+
+msgid "開始轉換"
+msgstr ""
