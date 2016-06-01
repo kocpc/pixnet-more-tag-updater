@@ -17,7 +17,7 @@ if( ! function_exists ('add_action') ) {
 ?>
 <div class="wrap">
     <h1><?php _e( '痞客邦 More 標籤轉換工具', PMTU_TEXT_DOMAIN ) ?></h1>
-    <?php // Check success message ?>
+    <?php // ------ Check success message ------ // ?>
     <?php if( isset( $_GET['success'] ) && $_GET['success'] === 'true' ): ?>
         <div class="notice notice-success is-dismissiable">
             <p><?php _e( '轉換成功！', PMTU_TEXT_DOMAIN ) ?></p>
@@ -31,7 +31,7 @@ if( ! function_exists ('add_action') ) {
             <p><?php _e( '開始轉換之前，我們強烈建議備份您的資料庫。', PMTU_TEXT_DOMAIN ) ?></p>
         </div>
     <?php endif; ?>
-    <?php // Check success message end ?>
+    <?php // ------ Check success message end ------ // ?>
     <p><?php _e( '一鍵將痞客邦 More 標籤轉換為 WordPress 格式。', PMTU_TEXT_DOMAIN ) ?></p>
     <p><?php printf( __( '這將會把所有 %s 轉換成 %s 。', PMTU_TEXT_DOMAIN ), '<code>&lt;!-- more --&gt;</code>', '<code>&lt;!--more--&gt;</code>' ) ?></p>
     <form role="form" action="options.php" method="post">
