@@ -49,7 +49,9 @@ add_action( 'plugins_loaded', 'load_languages' );
 /**
  * Import plugin classes.
  */
+include_once( PMTU_BASE_FULL . '/settings/class-pixnet-more-tag-updater-settings.php' );
 
 /**
  * Initial plugin.
  */
+PIXNET_MORE_TAG_UPDATER_SETTINGS::init();
