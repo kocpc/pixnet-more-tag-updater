@@ -10,6 +10,9 @@ msgstr ""
 msgid "這將會把所有 %s 轉換成 %s 。"
 msgstr ""
 
+msgid "開始轉換之前，我們強烈建議備份您的資料庫。"
+msgstr ""
+
 msgid "開始轉換"
 msgstr ""
 
