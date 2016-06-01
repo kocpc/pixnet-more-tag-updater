@@ -20,5 +20,6 @@
 ![Screenshot](/assets/screenshot-1.png)
 
 ## 致謝
-* [電腦王阿達的 3C 胡言亂語](https://www.kocpc.com.tw) : Production environment test.
-* [WordPress](https://wordpress.com) : Awesome platform for blogging.
+* [電腦王阿達](https://www.facebook.com/kocpc): 概念發起。
+* [電腦王阿達的 3C 胡言亂語](https://www.kocpc.com.tw): 生產環境測試。
+* [WordPress](https://wordpress.com): 優良的部落格平台。
