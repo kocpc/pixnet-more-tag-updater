@@ -2,8 +2,8 @@
 /**
  * PIXNET More Tag Updater
  *
- * Plugin Name: PIXNET More Tag Updater
- * Description: Update PIXNET More Tag to WordPress Style by One Click.
+ * Plugin Name: 痞客邦 More 標籤更新工具
+ * Description: 一鍵將痞客邦 More 標籤轉換為 WordPress 格式。
  * Author: Hiram Huang <me@hiram.tw>
  * Author URI: https://www.facebook.com/naxqihao
  * Version: 0.1
