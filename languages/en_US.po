@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+
+msgid "痞客邦 More 標籤轉換工具"
+msgstr "PIXNET More tag convert tool"
+
+msgid "痞客邦 More 轉換"
+msgstr "PIXNET More tag updater"
+
+msgid "一鍵將痞客邦 More 標籤轉換為 WordPress 格式。"
+msgstr "One click convert PIXNET More tag to Wordpress format."
+
+msgid "這將會把所有 %s 轉換成 %s 。"
+msgstr "This will transform all %s to %s ."
+
+msgid "開始轉換之前，我們強烈建議備份您的資料庫。"
+msgstr "Before convert, we strongly recommend to backup your database."
+
+msgid "開始轉換"
+msgstr "Start convert"
+
+msgid "轉換成功"
+msgstr "Convert Success"
+
+msgid "轉換失敗"
+msgstr "Convert Failed"
