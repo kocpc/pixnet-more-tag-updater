@@ -79,26 +79,23 @@ class PIXNET_MORE_TAG_UPDATER_SETTINGS {
         // Call $wpdb
         global $wpdb;
         
-        // Full name of wp_posts table
-        $posts_table = $wpdb->prefix . 'posts';
-        
         // SQL query string
         $SQL_QUERY = $wpdb->prepare(
             "
-            UPDATE %s
-            SET `post_content` = REPLACE( `post_content`, '<!-- more -->', '<!--more-->' ),
-                `post_content` = REPLACE( `post_content`, '&lt;!-- more --&gt;', '<!--more-->' )
-            WHERE `post_content` LIKE '%-- more --%'
+            UPDATE $wpdb->posts
+            SET post_content=REPLACE( post_content, '<!-- more -->', '<!--more-->' ),
+                post_content=REPLACE( post_content, '&lt;!-- more --&gt;', '<!--more-->' )
+            WHERE post_content LIKE %s
             ",
-            $posts_table
+            '%!-- more --%'
         );
         
         // Execute SQL query
         if( false === $wpdb->query( $SQL_QUERY ) ) {
-            wp_redirect( get_admin_url( null, 'tools.php?page=pixnet-more-tag-updater-settings&success=false') );
+            wp_redirect( get_admin_url( null, 'tools.php?page=pixnet-more-tag-updater-settings&success=false' ) );
             exit;
         } else {
-            wp_redirect( get_admin_url( null, 'tools.php?page=pixnet-more-tag-updater-settings&success=true') );
+            wp_redirect( get_admin_url( null, 'tools.php?page=pixnet-more-tag-updater-settings&success=true' ) );
             exit;
         }
     }
